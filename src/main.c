@@ -7,7 +7,7 @@ int main(int argc, char* argv[]) {
         printf("Usage: %s giris.txt\n", argv[0]);
         return 1;
     }
-
+    //start proccess sceduler
     printf("=============================================\n");
     printf(" FreeRTOS Priority Scheduler Simulation\n");
     printf("=============================================\n\n");
