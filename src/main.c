@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
     }
     //start proccess sceduler
     printf("=============================================\n");
-    printf(" FreeRTOS Priority Scheduler Simulation\n");
+    printf(" FreeRTOS  Scheduler Simulation\n");
     printf("=============================================\n\n");
 
     Scheduler* scheduler = create_scheduler();
