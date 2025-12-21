@@ -36,6 +36,7 @@ Task* dequeue(Queue* q) {
 }
 
 /* ---------------- SCHEDULER ---------------- */
+
 Scheduler* create_scheduler(void) {
     Scheduler* s = malloc(sizeof(Scheduler));
     s->realtime_queue = create_queue();
@@ -122,6 +123,7 @@ static Queue* select_queue(Scheduler* s){
 }
 
 /* ================= RUN ================= */
+/*==============prosesin baslamasi =======*/
 void run_scheduler(Scheduler* s) {
     while (1) {
 
