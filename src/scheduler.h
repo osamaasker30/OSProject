@@ -9,7 +9,7 @@
 #define PRIORITY_LOW      3
 #define PRIORITY_MAX      5
 
-/* ---------- TASK ---------- */
+/* ---------- TASK ------------ */
 typedef struct Task {
     int id;
     int arrival_time;
@@ -21,14 +21,14 @@ typedef struct Task {
     struct Task* next;
 } Task;
 
-/* ---------- QUEUE ---------- */
+/* ---------- QUEUE ------------ */
 typedef struct {
     Task* front;
     Task* rear;
     int size;
 } Queue;
 
-/* ---------- SCHEDULER ---------- */
+/* ---------- SCHEDULER ------------ */
 typedef struct {
     Queue* realtime_queue;
     Queue* high_queue;
